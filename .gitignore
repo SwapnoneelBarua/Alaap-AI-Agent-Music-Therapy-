@@ -1,0 +1,7 @@
+node_modules/
+.next/
+__pycache__/
+.venv/
+backend/data/chroma/
+.env
+RAG DOCs/annotations/

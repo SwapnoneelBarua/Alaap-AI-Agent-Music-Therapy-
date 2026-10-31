@@ -1,0 +1,20 @@
+@import "tailwindcss";
+
+:root {
+  color-scheme: light;
+  --ink: #183b3b;
+  --muted: #6d8580;
+  --paper: #f6f8f3;
+  --teal: #28766e;
+}
+
+* { box-sizing: border-box; }
+body {
+  margin: 0;
+  min-height: 100vh;
+  background: radial-gradient(ellipse at 14% 0%, #e5f0e9 0, transparent 38%), var(--paper);
+  color: var(--ink);
+  font-family: Arial, Helvetica, sans-serif;
+}
+button, input { font: inherit; }
+::selection { background: #b9ddd2; }
